@@ -141,7 +141,7 @@ class GANMonitor(keras.callbacks.Callback):
 
 
 def main() -> int:
-    epochs = 1  # In practice, use ~100 epochs
+    epochs = 30  # In practice, use ~100 epochs
     latent_dim = 128
 
     gan = GAN(
